@@ -1,18 +1,18 @@
 //
-//  Table1Tests.m
-//  Table1Tests
+//  table1Tests.m
+//  table1Tests
 //
-//  Created by Chris Arquelada on 5/7/14.
+//  Created by Chris Arquelada on 5/11/14.
 //  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Table1Tests : XCTestCase
+@interface table1Tests : XCTestCase
 
 @end
 
-@implementation Table1Tests
+@implementation table1Tests
 
 - (void)setUp
 {

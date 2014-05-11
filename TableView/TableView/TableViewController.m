@@ -25,7 +25,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-   self.dwarves = @[@"Hello",@"Hi"];
+   self.dwarves = @[@"Hello",@"Hi",@"Oreo"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -39,8 +39,11 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
     
     if (cell == nil){
-        cell = [UItable]
+        cell =[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
     }
+    
+    cell.textLabel.text =self.dwarves[indexPath.row];
+    return cell;
     
 }
 @end

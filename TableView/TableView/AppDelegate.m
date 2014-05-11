@@ -17,8 +17,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
-    UIViewController *viewController = [[UIViewController alloc]init];
-    self.window.rootViewController = viewController;
+    self.viewController = [[TableViewController alloc]initWithNibName:@"TableViewController" bundle:nil];
+    
+    self.window.rootViewController = self.viewController;
     
     self.window.backgroundColor = [UIColor whiteColor];
 

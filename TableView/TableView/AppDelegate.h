@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic)UIViewController *viewController;
+@property (strong,nonatomic) TableViewController *viewController;
+
 
 @end

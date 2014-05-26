@@ -1,14 +1,12 @@
 //
 //  AppDelegate.m
-//  TableView
+//  Nicol
 //
-//  Created by Chris Arquelada on 5/10/14.
-//  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
+//  Created by Chris Arquelada on 5/26/14.
+//  Copyright (c) 2014 Chris Arquelada. All rights reserved.
 //
-
 
 #import "AppDelegate.h"
-#import "TableViewController.h"
 
 @implementation AppDelegate
 
@@ -16,12 +14,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-
-    self.viewController = [[TableViewController  alloc]initWithNibName:@"TableViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    
     self.window.backgroundColor = [UIColor whiteColor];
-
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27665AE71933997700DDBA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AE61933997700DDBA2D /* Foundation.framework */; };
+		27665AE91933997700DDBA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AE81933997700DDBA2D /* CoreGraphics.framework */; };
+		27665AEB1933997700DDBA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AEA1933997700DDBA2D /* UIKit.framework */; };
+		27665AF11933997700DDBA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27665AEF1933997700DDBA2D /* InfoPlist.strings */; };
+		27665AF31933997700DDBA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665AF21933997700DDBA2D /* main.m */; };
+		27665AF71933997700DDBA2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665AF61933997700DDBA2D /* AppDelegate.m */; };
+		27665AF91933997700DDBA2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27665AF81933997700DDBA2D /* Images.xcassets */; };
+		27665B001933997700DDBA2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AFF1933997700DDBA2D /* XCTest.framework */; };
+		27665B011933997700DDBA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AE61933997700DDBA2D /* Foundation.framework */; };
+		27665B021933997700DDBA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665AEA1933997700DDBA2D /* UIKit.framework */; };
+		27665B0A1933997700DDBA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27665B081933997700DDBA2D /* InfoPlist.strings */; };
+		27665B0C1933997700DDBA2D /* NicolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665B0B1933997700DDBA2D /* NicolTests.m */; };
+		27665B17193399EA00DDBA2D /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665B16193399EA00DDBA2D /* Name.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27665B031933997700DDBA2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27665ADB1933997700DDBA2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27665AE21933997700DDBA2D;
+			remoteInfo = Nicol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27665AE31933997700DDBA2D /* Nicol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nicol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27665AE61933997700DDBA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27665AE81933997700DDBA2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27665AEA1933997700DDBA2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27665AEE1933997700DDBA2D /* Nicol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nicol-Info.plist"; sourceTree = "<group>"; };
+		27665AF01933997700DDBA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27665AF21933997700DDBA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27665AF41933997700DDBA2D /* Nicol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nicol-Prefix.pch"; sourceTree = "<group>"; };
+		27665AF51933997700DDBA2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27665AF61933997700DDBA2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27665AF81933997700DDBA2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27665AFE1933997700DDBA2D /* NicolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NicolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27665AFF1933997700DDBA2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27665B071933997700DDBA2D /* NicolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NicolTests-Info.plist"; sourceTree = "<group>"; };
+		27665B091933997700DDBA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27665B0B1933997700DDBA2D /* NicolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NicolTests.m; sourceTree = "<group>"; };
+		27665B15193399EA00DDBA2D /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		27665B16193399EA00DDBA2D /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27665AE01933997700DDBA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665AE91933997700DDBA2D /* CoreGraphics.framework in Frameworks */,
+				27665AEB1933997700DDBA2D /* UIKit.framework in Frameworks */,
+				27665AE71933997700DDBA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27665AFB1933997700DDBA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665B001933997700DDBA2D /* XCTest.framework in Frameworks */,
+				27665B021933997700DDBA2D /* UIKit.framework in Frameworks */,
+				27665B011933997700DDBA2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27665ADA1933997700DDBA2D = {
+			isa = PBXGroup;
+			children = (
+				27665AEC1933997700DDBA2D /* Nicol */,
+				27665B051933997700DDBA2D /* NicolTests */,
+				27665AE51933997700DDBA2D /* Frameworks */,
+				27665AE41933997700DDBA2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27665AE41933997700DDBA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27665AE31933997700DDBA2D /* Nicol.app */,
+				27665AFE1933997700DDBA2D /* NicolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27665AE51933997700DDBA2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27665AE61933997700DDBA2D /* Foundation.framework */,
+				27665AE81933997700DDBA2D /* CoreGraphics.framework */,
+				27665AEA1933997700DDBA2D /* UIKit.framework */,
+				27665AFF1933997700DDBA2D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27665AEC1933997700DDBA2D /* Nicol */ = {
+			isa = PBXGroup;
+			children = (
+				27665AF51933997700DDBA2D /* AppDelegate.h */,
+				27665AF61933997700DDBA2D /* AppDelegate.m */,
+				27665B15193399EA00DDBA2D /* Name.h */,
+				27665B16193399EA00DDBA2D /* Name.m */,
+				27665AF81933997700DDBA2D /* Images.xcassets */,
+				27665AED1933997700DDBA2D /* Supporting Files */,
+			);
+			path = Nicol;
+			sourceTree = "<group>";
+		};
+		27665AED1933997700DDBA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27665AEE1933997700DDBA2D /* Nicol-Info.plist */,
+				27665AEF1933997700DDBA2D /* InfoPlist.strings */,
+				27665AF21933997700DDBA2D /* main.m */,
+				27665AF41933997700DDBA2D /* Nicol-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27665B051933997700DDBA2D /* NicolTests */ = {
+			isa = PBXGroup;
+			children = (
+				27665B0B1933997700DDBA2D /* NicolTests.m */,
+				27665B061933997700DDBA2D /* Supporting Files */,
+			);
+			path = NicolTests;
+			sourceTree = "<group>";
+		};
+		27665B061933997700DDBA2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27665B071933997700DDBA2D /* NicolTests-Info.plist */,
+				27665B081933997700DDBA2D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27665AE21933997700DDBA2D /* Nicol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27665B0F1933997700DDBA2D /* Build configuration list for PBXNativeTarget "Nicol" */;
+			buildPhases = (
+				27665ADF1933997700DDBA2D /* Sources */,
+				27665AE01933997700DDBA2D /* Frameworks */,
+				27665AE11933997700DDBA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nicol;
+			productName = Nicol;
+			productReference = 27665AE31933997700DDBA2D /* Nicol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27665AFD1933997700DDBA2D /* NicolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27665B121933997700DDBA2D /* Build configuration list for PBXNativeTarget "NicolTests" */;
+			buildPhases = (
+				27665AFA1933997700DDBA2D /* Sources */,
+				27665AFB1933997700DDBA2D /* Frameworks */,
+				27665AFC1933997700DDBA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27665B041933997700DDBA2D /* PBXTargetDependency */,
+			);
+			name = NicolTests;
+			productName = NicolTests;
+			productReference = 27665AFE1933997700DDBA2D /* NicolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27665ADB1933997700DDBA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chris Arquelada";
+				TargetAttributes = {
+					27665AFD1933997700DDBA2D = {
+						TestTargetID = 27665AE21933997700DDBA2D;
+					};
+				};
+			};
+			buildConfigurationList = 27665ADE1933997700DDBA2D /* Build configuration list for PBXProject "Nicol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27665ADA1933997700DDBA2D;
+			productRefGroup = 27665AE41933997700DDBA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27665AE21933997700DDBA2D /* Nicol */,
+				27665AFD1933997700DDBA2D /* NicolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27665AE11933997700DDBA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665AF11933997700DDBA2D /* InfoPlist.strings in Resources */,
+				27665AF91933997700DDBA2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27665AFC1933997700DDBA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665B0A1933997700DDBA2D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27665ADF1933997700DDBA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665AF71933997700DDBA2D /* AppDelegate.m in Sources */,
+				27665B17193399EA00DDBA2D /* Name.m in Sources */,
+				27665AF31933997700DDBA2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27665AFA1933997700DDBA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27665B0C1933997700DDBA2D /* NicolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27665B041933997700DDBA2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27665AE21933997700DDBA2D /* Nicol */;
+			targetProxy = 27665B031933997700DDBA2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27665AEF1933997700DDBA2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27665AF01933997700DDBA2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27665B081933997700DDBA2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27665B091933997700DDBA2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27665B0D1933997700DDBA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27665B0E1933997700DDBA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27665B101933997700DDBA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nicol/Nicol-Prefix.pch";
+				INFOPLIST_FILE = "Nicol/Nicol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27665B111933997700DDBA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nicol/Nicol-Prefix.pch";
+				INFOPLIST_FILE = "Nicol/Nicol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27665B131933997700DDBA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nicol.app/Nicol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nicol/Nicol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NicolTests/NicolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27665B141933997700DDBA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nicol.app/Nicol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nicol/Nicol-Prefix.pch";
+				INFOPLIST_FILE = "NicolTests/NicolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27665ADE1933997700DDBA2D /* Build configuration list for PBXProject "Nicol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27665B0D1933997700DDBA2D /* Debug */,
+				27665B0E1933997700DDBA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27665B0F1933997700DDBA2D /* Build configuration list for PBXNativeTarget "Nicol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27665B101933997700DDBA2D /* Debug */,
+				27665B111933997700DDBA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27665B121933997700DDBA2D /* Build configuration list for PBXNativeTarget "NicolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27665B131933997700DDBA2D /* Debug */,
+				27665B141933997700DDBA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27665ADB1933997700DDBA2D /* Project object */;
+}

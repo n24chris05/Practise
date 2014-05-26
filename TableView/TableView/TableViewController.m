@@ -39,8 +39,11 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:SimpleTableIdentifier];
     
     if (cell == nil){
-        cell = [UItable]
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier];
+        
     }
+    cell.textLabel.text = self.dwarves[indexPath.row];
+    return cell;
     
 }
 @end

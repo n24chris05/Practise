@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>B65B9265-314F-45FF-BA47-1E273E65F61E</string>
-=======
-	<string>64BA731D-B1C3-4AC1-ABC4-F7A00804BCD2</string>
->>>>>>> FETCH_HEAD
+	<string>544A2EA3-B1A4-42D1-B013-FE59DA37D6A7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TableView</string>
+	<string>table1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>D3155F42-E668-415A-9922-2744586879B9</key>
-=======
 		<key>53EABB78-F38B-4814-8D0D-327BA43CF480</key>
->>>>>>> FETCH_HEAD
 		<string>https://github.com/n24chris05/Practise.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TableView/TableView.xcodeproj/project.xcworkspace</string>
+	<string>table1/table1.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>D3155F42-E668-415A-9922-2744586879B9</key>
-=======
 		<key>53EABB78-F38B-4814-8D0D-327BA43CF480</key>
->>>>>>> FETCH_HEAD
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,22 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>D3155F42-E668-415A-9922-2744586879B9</string>
-=======
 	<string>53EABB78-F38B-4814-8D0D-327BA43CF480</string>
->>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>D3155F42-E668-415A-9922-2744586879B9</string>
-=======
 			<string>53EABB78-F38B-4814-8D0D-327BA43CF480</string>
->>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>Practise</string>
 		</dict>

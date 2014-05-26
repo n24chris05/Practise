@@ -13,7 +13,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+<<<<<<< HEAD
 @property (strong,nonatomic) TableViewController *viewController;
 
+=======
+@property (strong, nonatomic)TableViewController *viewController;
+>>>>>>> FETCH_HEAD
 
 @end

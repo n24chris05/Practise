@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27111B331934812800AFBE90 /* Namelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 27111B321934812800AFBE90 /* Namelist.m */; };
 		27665B251933A19A00DDBA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665B241933A19A00DDBA2D /* Foundation.framework */; };
 		27665B281933A19A00DDBA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665B271933A19A00DDBA2D /* main.m */; };
 		27665B2C1933A19A00DDBA2D /* family.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27665B2B1933A19A00DDBA2D /* family.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27111B311934812800AFBE90 /* Namelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namelist.h; sourceTree = "<group>"; };
+		27111B321934812800AFBE90 /* Namelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Namelist.m; sourceTree = "<group>"; };
 		27665B211933A19A00DDBA2D /* family */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = family; sourceTree = BUILT_PRODUCTS_DIR; };
 		27665B241933A19A00DDBA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27665B271933A19A00DDBA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 			children = (
 				27665B271933A19A00DDBA2D /* main.m */,
 				27665B321933A1C500DDBA2D /* Name.h */,
+				27111B311934812800AFBE90 /* Namelist.h */,
+				27111B321934812800AFBE90 /* Namelist.m */,
 				27665B331933A1C600DDBA2D /* Name.m */,
 				27665B2B1933A19A00DDBA2D /* family.1 */,
 				27665B291933A19A00DDBA2D /* Supporting Files */,
@@ -146,6 +151,7 @@
 			files = (
 				27665B341933A1C600DDBA2D /* Name.m in Sources */,
 				27665B281933A19A00DDBA2D /* main.m in Sources */,
+				27111B331934812800AFBE90 /* Namelist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				27665B311933A19A00DDBA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

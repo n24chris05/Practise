@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27111B331934812800AFBE90 /* Namelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 27111B321934812800AFBE90 /* Namelist.m */; };
 		27665B251933A19A00DDBA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27665B241933A19A00DDBA2D /* Foundation.framework */; };
 		27665B281933A19A00DDBA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665B271933A19A00DDBA2D /* main.m */; };
 		27665B2C1933A19A00DDBA2D /* family.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27665B2B1933A19A00DDBA2D /* family.1 */; };
 		27665B341933A1C600DDBA2D /* Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 27665B331933A1C600DDBA2D /* Name.m */; };
+		92E9531C1934B4C9002071F5 /* NameMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E9531B1934B4C9002071F5 /* NameMember.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27111B311934812800AFBE90 /* Namelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namelist.h; sourceTree = "<group>"; };
-		27111B321934812800AFBE90 /* Namelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Namelist.m; sourceTree = "<group>"; };
 		27665B211933A19A00DDBA2D /* family */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = family; sourceTree = BUILT_PRODUCTS_DIR; };
 		27665B241933A19A00DDBA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27665B271933A19A00DDBA2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +35,8 @@
 		27665B2B1933A19A00DDBA2D /* family.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = family.1; sourceTree = "<group>"; };
 		27665B321933A1C500DDBA2D /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
 		27665B331933A1C600DDBA2D /* Name.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Name.m; sourceTree = "<group>"; };
+		92E9531A1934B4C9002071F5 /* NameMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameMember.h; path = ../NameMember.h; sourceTree = "<group>"; };
+		92E9531B1934B4C9002071F5 /* NameMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NameMember.m; path = ../NameMember.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 				27665B271933A19A00DDBA2D /* main.m */,
 				27665B321933A1C500DDBA2D /* Name.h */,
 				27665B331933A1C600DDBA2D /* Name.m */,
-				27111B311934812800AFBE90 /* Namelist.h */,
-				27111B321934812800AFBE90 /* Namelist.m */,
+				92E9531A1934B4C9002071F5 /* NameMember.h */,
+				92E9531B1934B4C9002071F5 /* NameMember.m */,
 				27665B2B1933A19A00DDBA2D /* family.1 */,
 				27665B291933A19A00DDBA2D /* Supporting Files */,
 			);
@@ -151,7 +151,7 @@
 			files = (
 				27665B341933A1C600DDBA2D /* Name.m in Sources */,
 				27665B281933A19A00DDBA2D /* main.m in Sources */,
-				27111B331934812800AFBE90 /* Namelist.m in Sources */,
+				92E9531C1934B4C9002071F5 /* NameMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

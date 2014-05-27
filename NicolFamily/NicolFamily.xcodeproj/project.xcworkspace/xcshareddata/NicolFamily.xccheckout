@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D524B8BC-8AB9-436D-94B5-833FA4892D92</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NicolFamily</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>107DBAC0-ECA3-49B4-BF44-3EC34A4A3545</key>
+		<string>https://github.com/n24chris05/Practise.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NicolFamily/NicolFamily.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>107DBAC0-ECA3-49B4-BF44-3EC34A4A3545</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/n24chris05/Practise.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>107DBAC0-ECA3-49B4-BF44-3EC34A4A3545</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>107DBAC0-ECA3-49B4-BF44-3EC34A4A3545</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Practise</string>
+		</dict>
+	</array>
+</dict>
+</plist>

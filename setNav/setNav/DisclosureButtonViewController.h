@@ -7,7 +7,14 @@
 //
 
 #import "SecondLevelViewController.h"
+@class DisclosureDetailViewController;
 
 @interface DisclosureButtonViewController : SecondLevelViewController
+
+@property (copy,nonatomic)NSArray *movies;
+@property (strong,nonatomic)DisclosureDetailViewController *detailController;
+
+
+
 
 @end

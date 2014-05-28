@@ -8,6 +8,7 @@
 
 #import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
+#import "DisclosureButtonViewController.h"
 
 
 static NSString *cellIdentifier = @"Cell";
@@ -20,6 +21,7 @@ static NSString *cellIdentifier = @"Cell";
     if (self) {
         // Custom initialization
         self.title = @"First Level";
+        self.controllers = @[[[DisclosureButtonViewController alloc]init]];
     }
     return self;
 }

@@ -11,6 +11,6 @@
 @interface FirstLevelViewController : UITableViewController
 
 //property that hold instance of secondLevelViewController
-@property (copy,nonatomic)NSArray *controllers;
+@property (nonatomic,copy)NSArray *controllers;
 
 @end

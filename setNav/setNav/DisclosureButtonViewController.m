@@ -65,6 +65,7 @@ static NSString *CellIdentifier= @"Cell";
     self.detailController.title = @"Disclosure Button Pressed";
     NSString *selectedMovie = self.movies[indexPath.row];
     NSString *detailMessage = [[NSString alloc]initWithFormat:@"This is detail for %@",selectedMovie];
+    
     self.detailController.message = detailMessage;
     self.detailController.title = selectedMovie;
     [self.navigationController pushViewController:self.detailController animated:YES];

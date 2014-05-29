@@ -1,24 +1,27 @@
 //
-//  SecondLevelViewController.m
+//  FirstLevelViewController.m
 //  setNav
 //
 //  Created by Chris Arquelada on 5/28/14.
 //  Copyright (c) 2014 Chris Arquelada. All rights reserved.
 //
 
+#import "FirstLevelViewController.h"
 #import "SecondLevelViewController.h"
+#import "DisclosureButtonViewController.h"
 
-@interface SecondLevelViewController ()
 
-@end
+static NSString *cellIdentifier = @"Cell";
 
-@implementation SecondLevelViewController
+@implementation FirstLevelViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        self.title = @"First Level";
+        self.controllers = @[[[DisclosureButtonViewController alloc]init]];
     }
     return self;
 }
@@ -27,18 +30,11 @@
 {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+   
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIdentifier];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 #pragma mark - Table view data source
 
@@ -46,26 +42,35 @@
 {
 //#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-//#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return [self.controllers count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    SecondLevelViewController *controller = self.controllers[indexPath.row];
+    cell.textLabel.text =controller.title;
+    cell.imageView.image = controller.rowImage;
     
     return cell;
 }
-*/
+
+#pragma mark -Delegate
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SecondLevelViewController *controller =self.controllers[indexPath.row];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.

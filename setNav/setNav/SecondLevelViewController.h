@@ -12,8 +12,7 @@
 @interface SecondLevelViewController : UITableViewController
 
 @property (nonatomic,strong) UIImage *rowImage;
-
 @property (copy,nonatomic)NSArray *movies;
-@property (strong,nonatomic)DisclosureDetailViewController *detailController;
+
 
 @end

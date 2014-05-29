@@ -116,12 +116,12 @@
 		271B847D193733C6007BC94D /* ReHomepwner */ = {
 			isa = PBXGroup;
 			children = (
+				271B8486193733C6007BC94D /* BNRAppDelegate.h */,
+				271B8487193733C7007BC94D /* BNRAppDelegate.m */,
 				271B84AC19373901007BC94D /* BNRItem.h */,
 				271B84AD19373901007BC94D /* BNRItem.m */,
 				271B84AF19373ACE007BC94D /* BNRItemStore.h */,
 				271B84B019373ACE007BC94D /* BNRItemStore.m */,
-				271B8486193733C6007BC94D /* BNRAppDelegate.h */,
-				271B8487193733C7007BC94D /* BNRAppDelegate.m */,
 				271B84A9193734BB007BC94D /* BNRItemViewController.h */,
 				271B84AA193734BB007BC94D /* BNRItemViewController.m */,
 				271B8489193733C7007BC94D /* Images.xcassets */,
@@ -456,6 +456,7 @@
 				271B84A2193733C7007BC94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		271B84A3193733C7007BC94D /* Build configuration list for PBXNativeTarget "ReHomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				271B84A5193733C7007BC94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

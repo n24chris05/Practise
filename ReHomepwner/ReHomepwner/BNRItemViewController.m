@@ -1,3 +1,4 @@
+
 //
 //  BNRItemViewController.m
 //  ReHomepwner
@@ -7,6 +8,8 @@
 //
 
 #import "BNRItemViewController.h"
+#import "BNRItem.h"
+#import "BNRItemStore.h"
 
 @implementation BNRItemViewController
 
@@ -14,6 +17,11 @@
 {
     //Call the superclass designated initializer
     self = [super initWithStyle:UITableViewStylePlain];
+    if (self){
+        for (int i =0; i < 5;i++){
+            [[BNRItemStore sharedStore]createItem];
+        }
+    }
     return self;
 }
 -(instancetype)initWithStyle:(UITableViewStyle)style

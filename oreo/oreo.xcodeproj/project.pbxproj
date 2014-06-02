@@ -22,6 +22,7 @@
 		2776B346193C62150096813E /* oreoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776B345193C62150096813E /* oreoTests.m */; };
 		2776B351193C64060096813E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776B350193C64060096813E /* TableViewController.m */; };
 		2776B354193C666C0096813E /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2776B353193C666C0096813E /* TableCell.m */; };
+		92E2508D193CA60500BFB2E7 /* family.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E2508C193CA60500BFB2E7 /* family.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2776B350193C64060096813E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		2776B352193C666C0096813E /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
 		2776B353193C666C0096813E /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		92E2508C193CA60500BFB2E7 /* family.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = family.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				2776B341193C62150096813E /* oreoTests-Info.plist */,
 				2776B342193C62150096813E /* InfoPlist.strings */,
+				92E2508C193CA60500BFB2E7 /* family.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E2508D193CA60500BFB2E7 /* family.plist in Resources */,
 				2776B344193C62150096813E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +466,7 @@
 				2776B34B193C62150096813E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2776B34C193C62150096813E /* Build configuration list for PBXNativeTarget "oreoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				2776B34E193C62150096813E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

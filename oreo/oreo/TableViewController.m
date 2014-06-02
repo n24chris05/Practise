@@ -36,6 +36,7 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     _Title = @[@"Oreo",@"Feebie"];
+    self.member = [[NSMutableDictionary alloc]initWithContentsOfFile:[[[NSBundle mainBundle]bundlePath]stringByAppendingPathComponent:@"family.plist"]];
     
 }
 
@@ -58,7 +59,7 @@
 {
 
     // Return the number of rows in the section.
-    return [self.Title count];
+    return self.Title;
 }
 
 
@@ -71,8 +72,7 @@
     
     int row = [indexPath row];
     
-    cell.TitleLabel.text = self.Title[row];
-    
+    cell.TitleLabel.text = [[NSString alloc] initWithFormat:@"Oreo%d",row];
     return cell;
 }
 

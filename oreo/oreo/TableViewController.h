@@ -12,6 +12,8 @@
 
 @property (nonatomic,strong) NSArray *Images;
 @property (nonatomic,strong) NSArray *Title;
+@property (nonatomic,strong) NSMutableDictionary *member;
+
 
 
 @end
